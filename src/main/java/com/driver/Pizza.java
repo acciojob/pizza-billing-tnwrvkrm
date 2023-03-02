@@ -5,9 +5,9 @@ public class Pizza {
     private int price;
     private Boolean isVeg;
     private String bill;
-    private String cheeseAdded = null;
-    private String toppingsAdded = null;
-    private String takeawayAdded = null;
+    private String cheeseAdded;
+    private String toppingsAdded;
+    private String takeawayAdded;
 
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
